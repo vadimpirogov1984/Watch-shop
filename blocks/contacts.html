@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Интернет-магазин "Атом"</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../css/styles.min.css" />
+  </head>
+  <body>
+      <header class="header header__page-bg">
+        <div class="header__row">
+          <nav class="header__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="header-menu"></div>
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a href="about.html" class="menu__link"><span>О компании</span></a>
+                </li>
+                <li>
+                  <a href="collection.html" class="menu__link menu__link--right"
+                    ><span>Коллекция</span></a
+                  >
+                </li>
+                <li >
+                  <a href="guaranty.html" class="menu__link"><span>Гарантия</span></a>
+                </li>
+                <li class="active">
+                  <a href="#" class="menu__link  active"><span>Контакты</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header__logo">
+           <a href="../index.html" class="logo__icon"> <img src="../images/logo/01.png" alt="" /></a>
+          </div>
+        </div>
+      </header>
+      <main class="">
+        <section class="contacts">
+          <div id="map" class="map"></div>
+          <div class="container">
+            <div class="contacts__title title">Контакты</div>
+
+          </div>
+            <div class="contacts__body">
+              <div class="contacts__left">
+                <div class="left__content">
+                  <div class="left__text">
+                    Мы находимся здесь!
+                    г. Самара, ул.Счастливая, д. 15
+                    8-935-658-45-45
+                    atom-w@.ru
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__right">
+                <div class="contacts__form">
+                  <form class="form1" id="form1" name="form1">
+                        <p><input id="name1" name="name1" placeholder="Ваше имя" required="" tabindex="1" type="text" class="name"></p>
+                        <p><input id="tel" name="phone1" placeholder="Номер телефона" required="" tabindex="2" type="tel" class="tel"></p>
+                        <p><input id="email" name="email" placeholder="E-mail" required="" tabindex="2" type="text" class="email"></p>  
+                        <p><textarea placeholder="Написать сообщение"></textarea></p>
+                        <p class="btn"><span>Отправить</span></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="adaptive__block"></div>
+        </section>
+      </main>
+      <footer class="footer footer__contacts">
+        <div class="container">
+          <div class="footer__body">
+            <div class="footer__column">
+              <div class="footer__logo">
+                <div class="footer__img"><img src="../images/logo/01.png" alt=""></div>
+                <span class="logo__text">ATOM</span>
+              </div>
+            </div>
+            <div class="footer__column">
+              <nav class="footer__menu">
+                <div class="menu__body-footer">
+                  <ul class="menu__list-footer">
+                    <li>
+                      <a href="#" class="menu__link"><span>О компании</span></a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu__link menu__link"
+                        ><span>Коллекция</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="menu__link"><span>Гарантия</span></a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu__link"><span>Контакты</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__rights">2020. All right reserved.</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/slick/slick.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!--end script-->
+  </body>
+</html>
